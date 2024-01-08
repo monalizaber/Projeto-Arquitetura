@@ -1,101 +1,91 @@
 *{
 margin: 0px;
 font-family: 'inter';
-padding: 0px;
+/* padding: 0px; */
  }
 
-#titulo-principal{
-padding-right: 72px;
-padding-left: 62px;
-padding-top: 100px;
-line-height: 72px;
-font-size: 55px;
-
+#titulo-menusuperior{
+padding-left: 50px;
+padding-top: 50px;
 }
 
-#texto-secundario{
-font-weight: 500;
-padding-left: 62px;
-size: 20px;
-line-height: 28px;
-padding-bottom: 130px;
+#texto-menusuperior{
+ font-weight: 500;
+
+/* size: 20px; */
+
+padding-bottom: 100px;
 padding-top: 20px;
+margin-left: 50px;
+}
 
-}
-#menuprincipal{
+#menu-superior{
   background-color: #303030;
-  background-image:url(banner.svg) ;
   color: aliceblue;
-  
 }
+
 #barrasecundaria{
-background-color: #F9F9F9;
+background-color: #EAECE5;
 display: grid;
 grid-auto-flow: column;
-padding: 30px;
-
+padding: 50px;
+columns: auto;
 }
 
-.textonumericobarra{
-  display: flex;
-  align-items: center;
-  padding-left: 100px;
-}
-.textocomplementtnumerico{
-  display: flex;
-  align-items: center;
-  padding-left: 100px;
-}
 #fotodecore{
-  width: 450px;
-  margin-bottom: 70px;
+  width: 300px;
+  margin: 50px 0px 50px 0px; 
 }
 
 #textoimagem{
-  display: grid;
+   display: grid;
   grid-auto-flow:column ;
-  margin-top: 150px;
-  
-}
-#tituloarquiteto{
-  padding-top: 60px;
-}
-#textoarquiteto{
-  padding-top: 50px;
- font-size: 19px;
+  margin-top: 150px; 
 }
 
-.textodotitulo{
-  align-items: center;
-  padding-left: 200px;
+#tituloarquiteto{
+  color: #000000;
+  margin-top: 120px;
+  margin-left: 50px;
 }
+
+#textoarquiteto{
+ padding-top: 50px;
+ font-size: 19px; 
+ margin-left: 50px;
+}
+
 #formulario{
 background-color: #303030;
-color: #F9F9F9;
-padding-top: 50px;
 text-align: center;
-font-family: Verdana, Geneva, Tahoma, sans-serif;
-font-size: 11px;
+}
+
+#titulo-formulario{
+font-size: 20px;
+margin: 25px;
+padding-top: 50px;
+color: #ffffff;
 }
 
 button:hover{
-  background-color: #C07212;
+  background-color: #ff8c00;
+  color: #F9F9F9;
   transform: translateY(-7px);
-  box-shadow: 0px 15px 20px;
- font-family: Verdana, Geneva, Tahoma, sans-serif;
-  
-}
+  box-shadow: 0px 15px 20px #05103081;
+  transition-duration: 0.5s;
+ }
 
 button{
   background-color: #C07212;
-  height: 50px;
-  width: 200px;
+  height: 40px;
+  width: 250px;
   color: #EAECE5;
   border: 0px;
   border-radius: 5px;
   margin-bottom: 50px;
-  margin-top: 25px;
-}
+  font-weight: bolder;
+  cursor: pointer;
+  }
 
 input{
   width: 300px;
@@ -103,6 +93,6 @@ input{
   background-color: #EAECE5;
   margin: 15px;
   border: 0px;
-  border-radius: 10px;
+  border-radius: 5px;
   padding-left: 10px;
 }
